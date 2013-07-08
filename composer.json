@@ -1,0 +1,31 @@
+{
+    "name": "pixeldomain/zf2utils",
+    "description": "Pixel Domain ZF2 utility classes",
+    "type": "library",
+    "keywords": [
+        "pixeldomain",
+        "zf2"
+    ],
+    "homepage": "http://www.pixeldomain.co.uk",
+    "authors": [
+        {
+            "name": "Darren O'Neill",
+            "email": "darren@pixeldomain.co.uk",
+            "homepage": "http://www.pixeldomain.co.uk"
+        }
+    ],
+    "require": {
+        "php": "5.3.*",
+        "zendframework/zendframework": "2.*",
+        "ZF-Commons/zfc-twig": "0.1",
+        "doctrine/doctrine-orm-module": "0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PixelDomain": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
