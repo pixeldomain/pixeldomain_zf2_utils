@@ -66,7 +66,7 @@ abstract class AbstractEntity implements ServiceLocatorAwareInterface
      */
     public function populate($data = array())
     {
-        foreach (array_keys(get_object_vars($this)) AS $attribute) {
+        foreach (array_keys(get_object_vars($this)) as $attribute) {
             if (isset($data[$attribute])) {
                 $this->$attribute = $data[$attribute];
             }
