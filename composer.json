@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.*",
+        "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
         "ZF-Commons/zfc-twig": "0.1",
         "doctrine/doctrine-orm-module": "0.*"
